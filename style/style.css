@@ -367,11 +367,23 @@
 
 .section3__inner {
 	margin-top: 219px;
+
+	width: 785px;
+	overflow: hidden;
+}
+
+.section3__line{
+	display: flex;
+	flex-direction: row;
+	width: 3140px;
+	position: relative;
+	left: 0;
+	transition: all ease .5s;
 }
 
 .section3__icon {
 	content: "";
-	background: url(./icons/“.png);
+	background: url(./../icons/“.png);
 	width: 83px;
 	height: 58px;
 	margin: auto;
