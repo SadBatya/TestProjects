@@ -19,3 +19,9 @@ sendInfoBtn.addEventListener('click', () => {
   modal.classList.remove('open')
   body.style.position = ''
 })
+
+alert('Здравствуйте!Меня зовут Владимир! Буду очень рад обратному фидбеку!')
+setTimeout(() => {
+  alert('Вот мои контакты для связи 8-909-776-47-38')
+  alert('Telegram @sadbatyaa')
+}, 7000)
